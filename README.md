@@ -1,4 +1,5 @@
-##Google Flights Simulation Project
+**Google Flights Simulation Project**
+
 This project is a simulation of Google Flights, built using Next.js, TypeScript, Material-UI, and Tailwind CSS. The goal of this project was to create a professional, scalable, and responsive application that mimics the core functionality and layout of Google Flights.
 
 Features
