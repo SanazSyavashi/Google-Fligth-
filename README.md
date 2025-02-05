@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+##Google Flights Simulation Project
+This project is a simulation of Google Flights, built using Next.js, TypeScript, Material-UI, and Tailwind CSS. The goal of this project was to create a professional, scalable, and responsive application that mimics the core functionality and layout of Google Flights.
 
-## Getting Started
+Features
+Responsive Design: The app is fully responsive, adapting to various screen sizes. You can check the responsive design by looking at the screenshots in the public folder of the GitHub repository.
+Reusable Components: Reusable components for buttons, forms, tables, and input fields like drop-downs, searchable drop-downs, and date pickers are created to ensure the project is scalable and easier to maintain.
+API Management: Axios hook is used for managing API requests efficiently and storing URLs as constants for better maintainability.
+Modular Structure: The project is divided into various folders for better organization:
+API: Contains the Axios hook and API URLs.
+Components: Holds reusable components.
+Pages: Contains different sections of the application, structured using the reusable components.
+Tech Stack
+Next.js: For server-side rendering and routing.
+TypeScript: To add type safety and improve maintainability.
+Material-UI: For UI components, integrated with custom styling.
+Tailwind CSS: For flexible, utility-first styling.
+Project Structure
+The project structure is organized into multiple folders for better clarity:
 
-First, run the development server:
+API: Contains Axios hook and URL constants.
+Components: Contains reusable components like buttons, forms, and input fields.
+Pages: The layout for different sections of the application.
+Installation
+To get started with the project, follow these steps:
 
-```bash
+Clone the repository:
+
+
+git clone https://github.com/SanazSyavashu/google-flights-simulation.git
+
+Install dependencies:
+cd google-flights-simulation
+npm install
+
+Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and visit http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Screenshots
+Screenshots of the responsive design can be found in the public folder of the GitHub repository.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributing
+Feel free to fork the repository and submit issues or pull requests. Any suggestions or improvements are welcome!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
